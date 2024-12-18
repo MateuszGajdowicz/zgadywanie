@@ -1,0 +1,42 @@
+body {
+  background-color: hsl(29, 70%, 69%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 40%;
+  height: 60%;
+  background-color: hsl(34, 63%, 80%);
+  border-radius: 30px;
+  border: rgb(245, 156, 73) 8px solid;
+}
+.main-container #number {
+  height: 20%;
+  width: 40%;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+.main-container #button {
+  height: 15%;
+  width: 30%;
+  border-radius: 20px;
+  font-size: 1.5em;
+  transition: 0.5s ease;
+}
+.main-container #button:hover {
+  background-color: hsl(34, 63%, 70%);
+}
+.main-container h2 {
+  font-size: 2em;
+}
+.main-container h3 {
+  font-size: 1.5em;
+}/*# sourceMappingURL=style.css.map */
